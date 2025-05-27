@@ -1,0 +1,62 @@
+#about {
+  width: 100%;
+  height: 100vh;
+}
+#about .container-about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#about .container-about h2 {
+  color: white;
+  font-size: 4.1rem;
+  font-weight: 300;
+  margin-bottom: -25px;
+}
+#about .container-about h6 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 1rem;
+}
+#about .container-about .content-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#about .container-about .content-box .box-about {
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  border: 0.1px solid rgba(255, 255, 255, 0.438);
+  border-radius: 4px;
+  margin: 10px;
+}
+#about .container-about .content-box .box-about h3 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+#about .container-about .content-box .box-about p {
+  border-top: 1px solid white;
+  padding-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.5rem;
+  width: 75%;
+}
+#about .container-about .content-box .box-2 p {
+  font-weight: 300;
+  font-size: 1rem;
+  border-top: 1px solid black;
+}/*# sourceMappingURL=about.css.map */
